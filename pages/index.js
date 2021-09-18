@@ -21,7 +21,7 @@ export default function Home() {
           <Avatar url="https://www.google.com/photos/about/static/images/ui/logo-photos.png" />
         </div>
       </header>
-      <form className="flex w-full flex-col items-center flex-grow mt-40">
+      <form className="flex flex-col items-center flex-grow mt-40 w-4/5">
         <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"
           height={100} width={300} />
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-4xl">
