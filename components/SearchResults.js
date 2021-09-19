@@ -5,7 +5,7 @@ const SearchResults = ({ results }) => {
 
     return (
         <div className="mx-auto w-full px-3 sm:pl-[5%] md:pl-[15%]">
-            <p className="capitalize text-gray-600 text-md mb-5 ml-3 mt-2">About {results.searchInformation?.formattedTotalResults} results (in {results.searchInformation.formattedSearchTime} seconds)</p>
+            <p className="capitalize text-gray-600 text-md mb-5 ml-3 mt-2">About {results.searchInformation?.formattedTotalResults} results (in {results?.searchInformation?.formattedSearchTime} seconds)</p>
 
             {results.items?.map((result) => (
                 <div key={result.link} className="max-w-xl mb-8">
