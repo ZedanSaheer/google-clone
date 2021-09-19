@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["upload.wikimedia.org"],
+    domains: ["brandslogos.com"]
   },
   env: {
     NEXT_PUBLIC_API_KEYS: process.env.NEXT_PUBLIC_API_KEYS,

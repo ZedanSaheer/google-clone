@@ -32,11 +32,11 @@ export default function Home() {
         </div>
         <div className="flex space-x-4 items-center"><p className="link">gmail</p><p className="link">images</p>
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
-          <Avatar url="https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg" />
+          <Avatar url="https://brandslogos.com/wp-content/uploads/images/zs-associates-logo-vector.svg" />
         </div>
       </header>
       <form className="flex flex-col items-center flex-grow mt-40 w-4/5">
-        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"
+        <Image src="https://brandslogos.com/wp-content/uploads/images/zs-associates-logo-vector.svg"
           height={100} width={300} alt="google"/>
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-4xl">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
