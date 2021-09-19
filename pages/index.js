@@ -37,7 +37,7 @@ export default function Home() {
       </header>
       <form className="flex flex-col items-center flex-grow mt-40 w-4/5">
         <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"
-          height={100} width={300} />
+          height={100} width={300} alt="google"/>
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-4xl">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
           <input type="text" ref={searchInputRef} name="search" className="flex-grow focus:outline-none" autoComplete='off' placeholder="Search"/>

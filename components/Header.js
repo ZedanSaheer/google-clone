@@ -24,7 +24,7 @@ const Header = () => {
          <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"
           height={40} width={120} onClick={()=>{
               router.push("/");
-          }} className="curson-pointer"/>
+          }} className="curson-pointer" alt="google"/>
           <form className="flex flex-grow border border-gray-200 px-6 py-3 ml-5 mr-5 rounded-full shadow-lg max-w-3xl items-center">
               <input type="text" 
               ref={searchInputRef} className="flex-grow w-full focus:outline-none" placeholder="Search" autoComplete='off'/>
