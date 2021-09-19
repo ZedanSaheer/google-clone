@@ -16,7 +16,7 @@ const Search = ({results}) => {
                 <link rel="icon" href="https://cdn.icon-icons.com/icons2/2108/PNG/512/google_icon_130924.png" />
             </Head>
             <Header />
-            <SearchResults results={results}/>
+            {results.searchInformation.formattedTotalResults != 0 ? <SearchResults results={results}/> : <h1 className="font-bold text-center mt-40 px-20">"Sincere Apologies , the qouta for API calls to the google server has exceeded , please visit the next day to check the functionality" - Zedan Saheer , SDE-2 , Team Google.</h1>}
         </div>
     )
 }

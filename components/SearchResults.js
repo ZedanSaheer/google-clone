@@ -5,8 +5,7 @@ const SearchResults = ({ results }) => {
 
     return (
         <div className="mx-auto w-full px-3 sm:pl-[5%] md:pl-[15%]">
-            {results.searchInformation == 0 && <h1 className="text-l font-bold mt-10 ">"Sorry The API Qouta Has Exhausted Please Visit Tommorow To Check Functionality" - Zedan Saheer , SDE-2 : Google SE Team.</h1> }
-           {results.searchInformation != 0 && <p className="capitalize text-gray-600 text-md mb-5 ml-3 mt-2">About {results.searchInformation?.formattedTotalResults} results (in {results.searchInformation.formattedSearchTime} seconds)</p>}
+            <p className="capitalize text-gray-600 text-md mb-5 ml-3 mt-2">About {results.searchInformation?.formattedTotalResults} results (in {results.searchInformation.formattedSearchTime} seconds)</p>
 
             {results.items?.map((result) => (
                 <div key={result.link} className="max-w-xl mb-8">
@@ -19,7 +18,7 @@ const SearchResults = ({ results }) => {
                     <p className="line-clamp-2">{result.snippet}</p>
                 </div>
             ))}
-           {results.searchInformation != 0 && <PaginationButtons />}
+          <PaginationButtons />
         </div>
     )
 }
