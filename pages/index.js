@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <div className="flex space-x-4 items-center"><p className="link">gmail</p><p className="link">images</p>
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
-          <Avatar url="https://www.google.com/photos/about/static/images/ui/logo-photos.png" />
+          <Avatar url="https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg" />
         </div>
       </header>
       <form className="flex flex-col items-center flex-grow mt-40 w-4/5">

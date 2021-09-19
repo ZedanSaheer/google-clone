@@ -33,7 +33,7 @@ const Header = () => {
               <SearchIcon className="h-8 text-blue-500 hidden sm:inline-flex"/>
               <button hidden type="submit" onClick={search}>Search</button>
           </form>
-          <Avatar url="https://cdn.icon-icons.com/icons2/2108/PNG/512/google_icon_130924.png" className="ml-auto"/>
+          <Avatar url="https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg" className="ml-auto"/>
          </div>
          <HeaderOptions />
         </header>
